@@ -1,6 +1,6 @@
 {
 	"name": "Rust",
-	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"image": "mcr.microsoft.com/devcontainers/base:dev-alpinelatest",
 	"features": {
 	  "ghcr.io/devcontainers/features/rust:1": {
          "version": "stable",
