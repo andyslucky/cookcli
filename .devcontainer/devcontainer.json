@@ -1,12 +1,14 @@
 {
 	"name": "Rust",
-	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
-
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	"features": {
-     "ghcr.io/devcontainers/features/node:1": {},
-     "ghcr.io/jungaretti/features/make:1": {}
+	  "ghcr.io/devcontainers/features/rust:1": {
+         "version": "stable",
+         "profile": "default"
+       },
+      "ghcr.io/devcontainers/features/node:1": {},
+      "ghcr.io/jungaretti/features/make:1": {}
   },
-
 	"customizations": {
 		"vscode": {
 			"settings": {},
